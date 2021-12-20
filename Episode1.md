@@ -14,7 +14,7 @@ Delivery model for services. There four main ones are:
 Scalability is the ability to scale. 
 
 Scaling is a process of
-- allocating (adding) resources or
+- allocating (adding) resources
 - deallocating (removing) resources
 
 ## Elasticity
