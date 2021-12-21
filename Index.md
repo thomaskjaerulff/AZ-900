@@ -11,3 +11,4 @@
 10. [Networking Services | Virtual Network, VPN Gateway, CDN, Load Balancer, App GW](Episode10.md)
 11. [Azure Storage Services | Blob, Queue, Table, Files, Disk and Storage Tiers](Episode11.md)
 12. [Database Services | Cosmos DB, SQL Database, Db for MySQL & PostgreSQL](Episode12.md)
+13. [Azure Marketplace](Episode13.md)
