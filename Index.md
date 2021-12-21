@@ -1,0 +1,13 @@
+## Table of Contents
+1. [Describe core Azure concepts](Episode1.md)
+2. [Principle of economies of scale](Episode2.md)
+3. [CapEx vs OpEx](Episode3.md)
+4. [Consumption-based Model](Episode4.md)
+5. [IaaS vs PaaS vs SaaS cloud service models](Episode5.md)
+6. [Public, Private & Hybrid cloud deployment models](Episode6.md)
+7. [Geographies, Regions & Availability Zones](Episode7.md)
+8. [Resources, Resource Groups & Resource Manager](Episode8.md)
+9. [Compute Services | VMs, VM Scale Set, App Service, Functions, ACI, AKS](Episode9.md)
+10. [Networking Services | Virtual Network, VPN Gateway, CDN, Load Balancer, App GW](Episode10.md)
+11. [Azure Storage Services | Blob, Queue, Table, Files, Disk and Storage Tiers](Episode11.md)
+12. [Database Services | Cosmos DB, SQL Database, Db for MySQL & PostgreSQL](Episode12.md)
