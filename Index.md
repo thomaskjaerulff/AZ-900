@@ -15,3 +15,5 @@
 14. [Azure IoT Services | IoT Hub, IoT Central, Azure Sphere](Episode14.md)
 15. [Azure Big Data & Analytics Services | Synapse, HDInsight, Databricks](Episode15.md)
 16. [Azure Artificial Intelligence (AI) Services | Machine Learning Studio & Service](Episode16.md)
+17. [Azure Serverless Computing Services | Functions, Logic Apps, Event Grid](Episode17.md)
+18. [Azure DevOps Solutions | Azure DevOps, DevTest Labs](Episode18.md)
