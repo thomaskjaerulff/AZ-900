@@ -13,3 +13,4 @@
 12. [Database Services | Cosmos DB, SQL Database, Db for MySQL & PostgreSQL](Episode12.md)
 13. [Azure Marketplace](Episode13.md)
 14. [Azure IoT Services | IoT Hub, IoT Central, Azure Sphere](Episode14.md)
+15. [Azure Big Data & Analytics Services | Synapse, HDInsight, Databricks](Episode15.md)
