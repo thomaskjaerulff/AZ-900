@@ -14,3 +14,4 @@
 13. [Azure Marketplace](Episode13.md)
 14. [Azure IoT Services | IoT Hub, IoT Central, Azure Sphere](Episode14.md)
 15. [Azure Big Data & Analytics Services | Synapse, HDInsight, Databricks](Episode15.md)
+16. [Azure Artificial Intelligence (AI) Services | Machine Learning Studio & Service](Episode16.md)
