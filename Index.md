@@ -23,3 +23,6 @@
 22. [User-defined Routes (UDR) with Route Tables](Episode22.md)
 23. [Azure Firewall](Episode23.md)
 24. [Azure DDoS Protection | Distributed Denial of Service](Episode24.md)
+25. [Azure Identity Services | Authentication, Authorization & Active Directory (AD)](Episode25.md)
+26. [Azure Security Center](Episode26.md)
+27. [Azure Key Vault | Secret, Key and Certificate Management](Episode27.md)
