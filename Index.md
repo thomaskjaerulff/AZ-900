@@ -26,3 +26,7 @@
 25. [Azure Identity Services | Authentication, Authorization & Active Directory (AD)](Episode25.md)
 26. [Azure Security Center](Episode26.md)
 27. [Azure Key Vault | Secret, Key and Certificate Management](Episode27.md)
+28. [Azure Role-based Access Control (RBAC)](Episode28.md)
+29. [Azure Resource Locks](Episode29.md)
+30. [Azure Resource Tags](Episode30.md)
+31. [Azure Policy](Episode31.md)
