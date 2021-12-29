@@ -30,3 +30,5 @@
 29. [Azure Resource Locks](Episode29.md)
 30. [Azure Resource Tags](Episode30.md)
 31. [Azure Policy](Episode31.md)
+32. [Azure Blueprints](Episode32.md)
+33. [Cloud Adoption Framework for Azure](Episode33.md)
