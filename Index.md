@@ -32,3 +32,4 @@
 31. [Azure Policy](Episode31.md)
 32. [Azure Blueprints](Episode32.md)
 33. [Cloud Adoption Framework for Azure](Episode33.md)
+34. [Core tenets of Security, Privacy, Compliance (Trust Center, DPA, OST, and more.)](Episode34.md)
