@@ -33,3 +33,8 @@
 32. [Azure Blueprints](Episode32.md)
 33. [Cloud Adoption Framework for Azure](Episode33.md)
 34. [Core tenets of Security, Privacy, Compliance (Trust Center, DPA, OST, and more.)](Episode34.md)
+35. [Cost Affecting Factors](Episode35.md)
+36. [Cost Reduction Methods, Reservations, Hybrid benefit, Spot VM, Pricing & TCO](Episode36.md)
+37. [Azure Cost Management](Episode37.md)
+38. [SLA and Composite SLA in Azure](Episode38.md)
+39. [Service Lifecycle in Azure | Public Preview and General Availability](Episode39.md)
