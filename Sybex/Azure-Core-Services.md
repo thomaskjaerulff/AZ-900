@@ -64,3 +64,80 @@
 - A billing account is a mechanism that you use to pay for Azure services.
 
 - You manage invoices and payments with your billing account, as well as track costs.
+
+### Billing Scope
+- An Azure billing scope is a node within a billing account that enables you to manage invoices, payments, accounts, and other Azure billing-related data.
+
+### Azure Tenants
+- An Azure tenant is a specific instance of Azure Active Directory (AAD) that contains accounts and groups.
+
+- In simpler terms, a tenant is a group of users.
+
+- A multitenancy implementation is one in which more than one tenant share Azure resources.
+
+- You can use a single tenant for multiple Microsoft cloud offerings. 
+
+## Core Azure Services
+
+### Virtual Machines
+- A virtual machine is an emulation of a computer system that provides the functionality of a physical computer.
+
+- The physical machine that runs the VM is often referred to as the host. The VM is a guest on that host. Software called a hypervisor manages the VM's running on the host. 
+
+- Scalability is another advantage to using VMs. 
+
+- VMs can be moved easily from one host to another because they are software 
+based.
+
+### Virtual Machine Scale Sets
+- Azure virtual machine scale sets is an orchestrator for Azure virtual machines. 
+
+- Azure virtual machine scale sets let you create and manage a group of identical, load balanced VMs. The number of VM instances can automatically increase or decrease in response to demand or a defined schedule. Scale sets provide high availability to your applications, and allow you to centrally manage, configure, and update a large number of VMs. With virtual machine scale sets, you can build large-scale services for areas such as compute, big data, and container workloads.
+
+- A virtual machine scale set simplifies creating and managing a group of load-balanced VMs.
+
+- Scale sets therefore enable high availability for your VMs and the services that rely on them. It makes it very simple to manage many VMs.
+
+### Availability Sets
+- An availability set is a group of virtual machines that are deployed across fault domains and update domains. Availability sets make sure that your application is not affected by single points of failure, like the network switch or the power unit of a rack of servers.
+
+- Availability sets halps you avoid potential outages caused by hardware issues, updates or other events. 
+
+- Two elements that enable availability sets are update domains and fault domains. A fault domain is a logical grouping of hardware that shares a power source and network switch, similar to a physical rack in a data center. An update domain is a logical group of hardware that undergoes maintenance activities or 
+reboot events at the same time.
+
+### Azure App Services
+- The Azure App Service is a PaaS offering that enables you to quickly develop and deploy 
+web applications.
+
+- Supports many development languages, including .NET, Java, Ruby, and Python, among others. 
+
+- Web apps deployed using Azure App Service run and scale on Windows and Linux environments. 
+
+### Azure Container Instances (ACI)
+- Docker is an open source project for automating the deployment of containers, and Docker containers provide a means for packaging and deploying applications virtually.
+
+- The container serves as a virtual environment that included the resources necessary for its hosted application to function.
+
+- Containers provides only the resources needed by the application so that you only need to deploy an image to the container, rather than build a VM and manage the OS and other resources. 
+
+- You focus solely on the application. 
+
+- ACI supports both Windows and Linux containers.
+
+![Container Groups](/Assets/container-groups.png)
+
+### Azure Kubernetes Service (AKS)
+- AKS is a container orchestration service that monitors container health, provides container scalability, and enables resource sharing among containers in a Kubernetes cluster. 
+
+- Each of the containers in a Kubernetes cluster is called a node. 
+
+### Windows Virtual Desktop (WVD)
+- WVD is an Azure services that enables users to run a Windows client in the cloud. 
+
+## Core Azure Storage
+### Blob Storage
+### Blob Storage Tiers
+### Disk Storage
+### File Storage
+### Storage Accounts
