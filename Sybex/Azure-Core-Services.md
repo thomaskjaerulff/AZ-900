@@ -137,7 +137,78 @@ web applications.
 
 ## Core Azure Storage
 ### Blob Storage
+- Azure Blob storage is optimized to store very large amounts of unstructured data such as text and binary data. 
+
+- Can be accessed through HTTP or HTTPS, the Azure Storage REST API, Azure PowerShell, Azure CLI, or an Azure Storage client library.
+
+- Good for storing either many or large files. 
+
 ### Blob Storage Tiers
+- Consider how you will access data to determine which storage solution is right for you. Access data frequently or seldom. 
+
+- Azure Storage provides three access tiers: 
+    - Hot access: Optimized for storing frequently accessed data. 
+    - Cool access: Optimized for data that you access infrequently. 
+    - Archive access: Intended for data that you rarely access, if at all. 
+
 ### Disk Storage
+- Azure disks are virtualized storage presented as a disk and attached to a virtual machine, much like a physical disk in a server.
+
 ### File Storage
+- Azure Files store files that are available securely from anywhere in the world but not associated with a specific VM or volume letter. 
+
+- Can be accessed using SMB or NFS protocol. 
+
 ### Storage Accounts
+- Before using storage in Azure, you must create a storage account.
+
+- There are several types of storage accounts: 
+    - General-purpose v1: 
+    - General-purpose v2:
+    - BlockBlobStorage:  
+    - FileStorage: 
+    - BlobStorage: 
+
+## Core Data Services
+### Structured and Unstructured Data
+- Structured data is defined by a schema that determines the characteristics and types of data stored in a data set. (Ex. relational database like SQL Server is an example of structured data). 
+
+- Unstructured data does not have a defined structure and is not organized in a predefined way. 
+
+### Azure SQL Database
+- Azure SQL Database abstracts all the infrastructure needed to host a SQL database.
+
+- A PaaS offering. 
+
+### SQL Managed Instance
+- SQL Managed Instances offers many of the same benefits as the Azure SQL Database service. 
+
+- SQL Managed Instances also offers additional features for auditing, authentication, backups, etc. 
+
+### Cosmos DB
+- Azure Cosmos DB is a multimodel database service that enables you to scale data out to multiple Azure regions across the world. 
+
+- Makes data readily available to your users worldwide. 
+
+- Provides excellent elasticity. 
+
+### Azure Database for MySQL
+- Azure Database for MySQL gives you the capability to deploy, manage, and use MySQL 
+databases without deploying MySQL on a server or VM. 
+
+- If you see a reference to LAMP, think MySQL. 
+
+### Azure Database for PostgreSQL
+- Azure Database for PostgreSQL is an Azure-based implementation of PostgreSQL that supports the PostgreSQL database engine with the scalability, elasticity, high availability, and other cloud features you would expect from an Azure service. 
+
+### Azure Database Migration Service
+- Azure Database Migration Service supports a variety of database migration scenarios for both one-time (offline) and continuous synchronization (online) migrations.
+
+## Microsoft Marketplace
+- Like many Microsoft offerings, third-party providers supplement Microsoft’s cloud offerings. 
+
+- These offerings are available through the Microsoft Marketplace, which encompasses two online stores: Microsoft AppSource and Azure Marketplace. 
+
+- Microsoft AppSource offers business solutions for Azure, Dynamics 365, Microsoft 365, web apps, and Power Platform. 
+
+- Azure Marketplace is an online store that enables you to find and purchase a variety of Azure solutions and managed services. Think of Google Play or App Store. 
