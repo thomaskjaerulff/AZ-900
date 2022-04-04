@@ -60,3 +60,29 @@ the private addresses are assigned and managed by you.
 
 
 ## VPN Gateway
+- A VPN establishes an encrypted tunnel between two private networks across a public network. 
+
+- For example, you can establish a secure connection between your on-premises data center and your resources in Azure. 
+
+- One option for creating a VPN connection to Azure is to use the Azure VPN Gateway service. 
+
+- Azure VPN Gateway enables you to create VPN connections between Azure virtual networks and between Azure and your on-premises network. 
+
+    - Site-to-site
+    - Multi-site
+    - Point-to-point
+    - VNet-to-VNet
+
+### ExpressRoute
+- Azure ExpressRoute enables you to extend your on-premises networks into Azure over a private connection managed by a third-party connectivity provider.
+
+## Content Delivery Networks
+- Azure Content Delivery Network (CDN) places web content across a distributed network of servers to make that content readily available to users based on their location.
+
+- You place files in CDN's that has a point of presence (PoP). When users access those files, they come from a cached copies in the CDN. 
+
+- This service reduces latency and improves performance. 
+
+- Each file in the CDN has a time-to-live (TTL) property that determines when the file should be refreshed from the source to the cache. 
+
+- Azure CDN supports CDN caching rules, compression, geofiltering, scalability, and several other features.
