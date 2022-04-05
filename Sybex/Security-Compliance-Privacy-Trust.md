@@ -86,3 +86,106 @@
 
 ### Azure Information protection
 - Azure Information Protection (AIP) enables you to classify and protect documents and emails by applying labels to them. 
+
+### Azure Advanced Threat Protection
+- Azure Advanced Threat Protection (ATP) leverages your on-premises Active Directory to detect and identify threats directed at your organization.
+
+### Azure Sentinel
+- Azure Sentinel collects data across your enterprise from users, devices, applications, and infrastructure on-premises and in the cloud, including from multiple clouds. 
+
+- It uses a combination of built-in analytics, leveraging information about known threats, machine learning, and other criteria to automatically detect threats.
+
+- Azure Sentinel uses analytics to correlate alerts from across the environment into incidents, enabling you to track and act on possible threats rather than individual alerts. 
+
+## Azure Governance Methodologies
+- Governance describes policies and methods that control how a service is used, roles and responsibilities within the service, and how it should be secured. 
+
+### Azure Policies
+- Azure policies define business rules that you can use to assess and ensure compliance with organizational standards in Azure, controlling how Azure resources are deployed and used. 
+
+### Azure Initiatives
+- An Azure initiative is a group (collection) of Azure policies. 
+
+### Role-Based Access Control
+- Role-based access control (RBAC) is a primary authorization mechanism in Azure that enables you to define who has access to Azure resources and what they can do with those resources. 
+
+- To apply RBAC, you first create a role assignment, which consists of three elements that effectively translate to who, what, and where:
+    - Security principal
+    - Role definition
+    - Scope
+
+- Roles are divided into three types: classic subscription administrator roles, Azure roles, and Azure AD roles. 
+
+- Classic subscription administrator roles include the following: 
+    - Account Administrator
+    - Service Administrator
+    - Co-Administrator
+
+- Azure RBAC adds more granularity to permission assignment in Azure with over 70 built-in roles. 
+
+- For the purposes of the AZ-900 exam, let’s focus on the following four roles:
+    - Owner
+    - Contributor
+    - Reader
+    - User Access Administrator
+
+### Resource Locks
+- Azure gives you the ability to lock down resources. Resource locks enable you to apply that control. 
+
+- You can apply a ReadOnly or CanNotDelete lock. 
+
+- If you need to delete a resource, you must first remove the lock. Then you can delete the resource. 
+
+### Azure Blueprints
+- Azure Blueprint lets you define a repeatable group of Azure resources and associated role assignments and policies to meet your organization’s standards and practices, and then quickly and easily deploy those resources where needed.
+
+- Resource groups, role assignments, policies, and ARM templates are the artifacts within a blueprint that define its structure and enable a potentially large number of resources to be deployed collectively and in a controlled, standardized way.
+
+- ARM templates retain no connection to the resources they deploy. Blueprints do maintain that connection, so you can track and audit what was deployed against what the blueprint specified should be deployed.
+
+- A blueprint is in draft mode until you publish it using a version designation that you define. Once published, a blueprint is available for assignment. Assigning a blueprint deploys the artifacts defined in the blueprint.
+
+### Microsoft Cloud Adoption Framework for Azure
+- The Cloud Adoption Framework for Azure is a large collection of resources, including documentation, deployment guidance, templates, best practice documentation, and various tools to help with planning, deploying, and assessing your Azure deployment. 
+
+## Azure Monitoring and Reporting Options
+### Azure Monitor
+- Azure Monitor provides the capability to collect and analyze telemetry from your cloud and on-premises environments and to take appropriate actions based on that analysis.
+
+- Azure Monitor encompasses several services: 
+    - Application Insights
+    - Azure Monitor for VMs
+    - Azure Monitor for containers
+    - Log Analytics
+    - Smart Alerts
+    - Automated Actions
+    - Dashboards
+    - Workbooks
+
+- Azure Monitor uses two types of data: 
+    - Metrics: Describe some aspect of a system at a given time using numerical values. 
+    - Logs:  contain a record of events that happen within a system.
+
+- Monitoring begins automatically as soon as you add a resource to a subscription. 
+- Metrics and logs are created for you automatically. 
+- Application Insights enables developers to send telemetry data about the applications they develop to Azure. 
+- Metrics are numeric values that describe how a resource is performing and/or what it is consuming.
+- Logs contain detailed information about events that happen within your Azure environment.
+- Log Analytics enables you to view data from multiple sources through queries that you create or that are created by services for you, such as On-Demand Assessments. 
+
+### Azure Service Health 
+- Azure Service Health keeps you informed regarding planned maintenance and changes, Azure service issues that affect your environment, and issues within your own environment. 
+
+- Azure Service Health provides the following features: 
+    - Azure Status
+    - Service Health 
+    - Resource Health 
+
+- In addition to giving you a customizable dashboard to track the health of Azure services in the regions where your resources are located and get more information about issues, Service Health enables you to set up service health alert. 
+
+- Works with Azure Monitor. 
+
+### Azure Advisor
+- Azure Advisor, which you access through the Azure portal, provides a web-based report intended to help you optimize you Azure environment. 
+
+- Captures a wide range of data points across the environment, evaluating performance criteria, costeffectiveness, reliability, security, and operational excellence. 
